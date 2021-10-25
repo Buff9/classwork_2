@@ -259,3 +259,79 @@ body{
     background-color: var(--2);
     border-radius: 13px;
 }
+
+.fourth_bar{
+    height: 400px;
+    width: 100%;
+    background-color: var(--3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fourth_bar > div {
+    height: 90%;
+    width: 28%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fourth_bar-left_block{
+    background-color: var(--2);
+    color: var(--1);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+
+}
+.fourth_bar-right_block{
+    background-color: var(--1);
+    color: var(--2);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.fourth_bar-left_block>div:nth-child(2) {
+    background-color: var(--1);
+    height: 10%;
+    width: 25%;
+    border-radius: 13px;
+}
+.fourth_bar-right_block>div:nth-child(2) {
+    background-color: var(--2);
+    height: 10%;
+    width: 25%;
+    border-radius: 13px;
+}
+
+
+.bottom{
+    height: 100px;
+    width: 100%;
+    background-color: var(--2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom_elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2em;
+    width: 10%;
+}
+.bottom_elements>div{
+    height: 100%;
+    width: 30%;
+    background-color: var(--3);
+    border-radius: 8px;
+}
+.bottom_line{
+    height: 3px;
+    width: 25%;
+    margin: 0 auto;
+    background-color: var(--1);
+    border-radius: 25%;
+}
